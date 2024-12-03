@@ -42,9 +42,10 @@ To explore the analysis or run the code yourself:
 2. pip install -r requirements.txt
 ---
 
-## Deployment:
-The project is deployed and accessible at the following URL:
+## **Deployment**:
+The project is deployed and accessible at the following URL:  
 [View Deployment](https://result-answer.streamlit.app/)
+
 --- 
 ## Contributors
 
