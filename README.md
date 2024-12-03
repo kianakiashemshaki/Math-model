@@ -85,7 +85,7 @@ The project is deployed and accessible at the following URL:
 [View Deployment](https://result-answer.streamlit.app/)
 
 ### **Access via QR Code**:
-<img src="..frame.png" alt="QR Code" width="200" />
+<img src="frame.png" alt="QR Code" width="200" />
 
 --- 
 ## Contributors
