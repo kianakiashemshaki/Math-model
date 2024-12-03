@@ -13,6 +13,7 @@ This project aims to analyze various factors influencing students' performance i
 ![Project Overview](overview.png "Overview of the Project")
 
 ---
+
 ## 🛠 Methods and Tools
 ### Data Analysis:
 - **EDA:** Investigated distributions and patterns across countries, topics, and question levels.
@@ -43,6 +44,7 @@ To explore the analysis or run the code yourself:
 1. Clone this repository to your local machine:
    git clone (git@github.com:kianakiashemshaki/Math-model.git)
 2. pip install -r requirements.txt
+   
 ---
 
 ## **Deployment**:
