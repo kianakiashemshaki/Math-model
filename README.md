@@ -77,13 +77,12 @@ This project involves analyzing various factors influencing students' performanc
 To explore the analysis or run the code yourself:
 
 1. Clone this repository to your local machine:
+    ```bash
    git clone (git@github.com:kianakiashemshaki/Math-model.git)
-2. pip install -r requirements.txt
 
-   ```bash
-   git clone (git@github.com:kianakiashemshaki/Math-model.git)n
-
-
+2. Install the required packages using requirements.txt:
+    ```bash
+    pip install -r requirements.txt
    
 ---
 
