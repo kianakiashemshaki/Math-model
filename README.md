@@ -14,6 +14,25 @@ This project aims to analyze various factors influencing students' performance i
 
 ---
 
+## 🚀 Key Results
+
+- **Country-Level Insights**:  
+  - Slovenia had the highest success rate (68.7%), followed by Romania (58.3%).  
+  - Russia and Spain struggled the most, with success rates below 50%.
+
+- **Topic-Level Performance**:  
+  - Students excelled in *Set Theory* (64.3%) and *Graph Theory* (58.2%).  
+  - The hardest topics were *Linear Optimization* (73.2% difficulty rate) and *Partial Differentiation* (67.6%).
+
+- **Question Difficulty**:  
+  - Advanced-level questions had a higher success rate (~50%) compared to basic-level questions (~46%).
+
+- **Machine Learning Performance**:  
+  - Gaussian Naïve Bayes outperformed other models, achieving an **F1 score of 0.62** after hyperparameter tuning.  
+  - Clustering using *K-Means* and *Agglomerative Clustering* highlighted performance patterns, with Normalized data achieving the best silhouette scores (0.684 and 0.671, respectively).
+
+---
+
 ## 🛠 Methods and Tools
 ### Data Analysis:
 - **EDA:** Investigated distributions and patterns across countries, topics, and question levels.
@@ -29,13 +48,28 @@ This project aims to analyze various factors influencing students' performance i
 - **Evaluation Metrics:** Accuracy, Precision, Recall, and F1 Score.
 - **Hyperparameter Tuning:** Applied GridSearchCV on the Gaussian Naïve Bayes model.
 
+### Clustering
+- **Techniques Used:**
+ - K-Means, Agglomerative Clustering, and DBSCAN to group students and questions based on feature similarities.
+ - **Evaluation:**
+ - Silhouette Score used to evaluate cluster quality.
+ - **Key Findings:**
+ - K-Means: Normalizer scaling achieved the highest silhouette score (0.684), indicating well-defined clusters.
+ - Agglomerative Clustering: Normalizer scaling also yielded the best results (silhouette score: 0.671).
+ - DBSCAN: MinMaxScaler worked best (silhouette score: 0.640), though Normalizer scaling classified most data as noise.
+
 ### Visualization:
 - **Tools:** Plotly, Matplotlib, Pandas.
 - **Examples:** Bar charts for topic and subtopic performance, stacked bar plots for country-wise correct vs incorrect answers.
 
 ### Tools and Libraries:
 - **Programming Language:** Python
-- **Key Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, SciPy, Plotly.
+- **Key Libraries:** 
+  - **Data Processing:** Pandas, NumPy
+  - **Statistical Analysis:** SciPy
+  - **Machine Learning:** Scikit-learn, XGBoost
+  - **Visualization:** Plotly, Matplotlib
+  - **App Development:** Streamlit
 
 ## 🖥 How to Use This Project
 ### Getting Started
@@ -50,6 +84,9 @@ To explore the analysis or run the code yourself:
 ## **Deployment**:
 The project is deployed and accessible at the following URL:  
 [View Deployment](https://result-answer.streamlit.app/)
+
+### **Access via QR Code**:
+<img src="../images/frame.png" alt="QR Code" width="200" />
 
 --- 
 ## Contributors
