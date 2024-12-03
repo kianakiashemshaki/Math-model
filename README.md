@@ -34,6 +34,8 @@ This project involves analyzing various factors influencing students' performanc
 ---
 
 ## 🛠 Methods and Tools
+![Methods and Tools](kia.png "Method of the Project")
+
 ### Data Analysis:
 - **EDA:** Investigated distributions and patterns across countries, topics, and question levels.
 - **Statistical Testing:** Used chi-squared tests to assess significant differences.
