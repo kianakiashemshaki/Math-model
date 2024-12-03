@@ -11,14 +11,15 @@
 
 project-directory/
 ├── data/
-│   └── Math.csv          
+│   └── Math.csv
 ├── notebooks/
-│   └── analysis.ipynb      
+│   └── analysis.ipynb
 ├── Presentation/
-│   └── slide.pdf     
-├── README.md               
-├── requirements.txt        
+│   └── slide.pdf
+├── README.md
+├── requirements.txt
 └── .gitignore
+
 
 
 ## 📋 Table of Contents
