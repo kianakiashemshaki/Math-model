@@ -2,12 +2,15 @@
 
 
 ## Overview
+This project aims to analyze various factors influencing students' performance in answering mathematics questions in higher education and develop predictive and clustering models to better understand and improve learning outcomes. The study involves an exploratory data analysis (EDA) of student responses, statistical testing for patterns and differences, machine learning classification models for prediction, and clustering techniques for grouping similar behaviors.
+
+## Objectives
+1. Investigate the impact of factors like Student Country, Question Level, Topic, Subtopic, and Keywords on students' performance.
+2. Analyze and visualize differences in performance across countries and other variables using statistical and exploratory techniques.
+3. Build predictive models to classify whether a student is likely to answer a question correctly or incorrectly.
+4. Employ clustering techniques to identify patterns and group similar features among students or questions.
+
 ![Project Overview](overview.png "Overview of the Project")
-
-
-
-
-
 
 ---
 ## 🛠 Methods and Tools
