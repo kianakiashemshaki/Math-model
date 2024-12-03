@@ -48,8 +48,7 @@ This project involves analyzing various factors influencing students' performanc
 - **Evaluation Metrics:** Accuracy, Precision, Recall, and F1 Score.
 - **Hyperparameter Tuning:** Applied GridSearchCV on the Gaussian Naïve Bayes model.
 
-- **Clustering:** 
- - **Techniques Used:**
+- **Clustering Techniques Used:**
  - K-Means, Agglomerative Clustering, and DBSCAN to group students and questions based on feature similarities.
  - **Evaluation:**
  - Silhouette Score used to evaluate cluster quality.
