@@ -79,6 +79,11 @@ To explore the analysis or run the code yourself:
 1. Clone this repository to your local machine:
    git clone (git@github.com:kianakiashemshaki/Math-model.git)
 2. pip install -r requirements.txt
+
+   ```bash
+   git clone (git@github.com:kianakiashemshaki/Math-model.git)n
+
+
    
 ---
 
