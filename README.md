@@ -95,9 +95,8 @@ The project is deployed and accessible at the following URL:
 
 --- 
 ## Contributors
-
-- **Humphrey Borketey**
 - **Kiana Kiashemshaki**
+- **Humphrey Borketey**
 - **Uchechi Nwala**
 
 
