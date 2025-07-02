@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import os
 from sklearn.preprocessing import FunctionTransformer
 
 
@@ -27,7 +28,8 @@ def load_data():
 def load_model():
     """Load the trained model"""
     try:
-        model = joblib.load('best_classification_model.pkl')
+        model_path = os.path.join(os.path.dirname(__file__), 'best_classification_model.pkl')
+        model = joblib.load(model_path)
         return model
     except Exception as e:
         st.error("Error: Could not load the model. Please ensure 'best_classification_model.pkl' is in the same directory.")
